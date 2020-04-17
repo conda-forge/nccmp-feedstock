@@ -9,15 +9,15 @@ channel_sources:
 channel_targets:
 - conda-forge main
 curl:
-- '7.64'
+- '7'
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
 - '9'
 hdf5:
-- 1.10.5
+- 1.10.6
 libcurl:
-- '7.64'
+- '7'
 libnetcdf:
 - 4.7.4
 macos_machine:
