@@ -10,7 +10,7 @@ source:
   sha256: 4e86d2ea788191a36b29ce09a50dcc3711abd100ff36a1d4e2d0d19f4de75fbd
 
 build:
-  number: 1
+  number: 2
   # Need to skip win because curl needs vc=9 and hdf5 needs vc>=14
   skip: true  # [win]
 
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://gitlab.com/remikz/nccmp
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: COPYING
   summary: 'Comparison of NetCDF files'
