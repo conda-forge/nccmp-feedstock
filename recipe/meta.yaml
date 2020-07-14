@@ -1,5 +1,5 @@
 {% set name = "nccmp" %}
-{% set version = "1.8.6.5" %}
+{% set version = "1.8.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://gitlab.com/remikz/{{ name }}/-/archive/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4e86d2ea788191a36b29ce09a50dcc3711abd100ff36a1d4e2d0d19f4de75fbd
+  sha256: a864c4724200d005bf8bc925da717ef7c69b0b0a14730c09540e5a86daad8988
 
 build:
-  number: 2
+  number: 0
   # Need to skip win because curl needs vc=9 and hdf5 needs vc>=14
   skip: true  # [win]
 
@@ -41,7 +41,7 @@ about:
   license: GPL-2.0-or-later
   license_family: GPL
   license_file: COPYING
-  summary: 'Comparison of NetCDF files'
+  summary: Comparison of NetCDF files
 
   description: |
     nccmp compares two NetCDF files bitwise, semantically or with a
