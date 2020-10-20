@@ -1,5 +1,5 @@
 {% set name = "nccmp" %}
-{% set version = "1.8.7.0" %}
+{% set version = "1.8.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/remikz/{{ name }}/-/archive/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a864c4724200d005bf8bc925da717ef7c69b0b0a14730c09540e5a86daad8988
+  sha256: 6b5e1655cef551b1484df94a097a3b1d5d9209314ad123fa2f562472d6ea52d7
 
 build:
   number: 0
