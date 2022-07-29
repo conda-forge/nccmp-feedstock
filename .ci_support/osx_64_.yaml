@@ -3,7 +3,7 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '11'
+- '13'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -13,9 +13,9 @@ curl:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '11'
+- '13'
 hdf5:
-- 1.12.1
+- 1.12.2
 libcurl:
 - '7'
 libnetcdf:
