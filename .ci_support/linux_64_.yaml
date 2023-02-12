@@ -1,7 +1,7 @@
 c_compiler:
 - gcc
 c_compiler_version:
-- '10'
+- '11'
 cdt_name:
 - cos6
 channel_sources:
@@ -13,7 +13,7 @@ curl:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '10'
+- '11'
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 hdf5:
@@ -21,12 +21,7 @@ hdf5:
 libcurl:
 - '7'
 libnetcdf:
-- 4.8.1
-pin_run_as_build:
-  curl:
-    max_pin: x
-  libcurl:
-    max_pin: x
+- 4.9.1
 target_platform:
 - linux-64
 zip_keys:
