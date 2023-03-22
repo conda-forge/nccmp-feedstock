@@ -1,11 +1,11 @@
-About nccmp
-===========
+About nccmp-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nccmp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/remikz/nccmp
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nccmp-feedstock/blob/main/LICENSE.txt)
 
 Summary: Comparison of NetCDF files
 
