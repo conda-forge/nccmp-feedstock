@@ -10,14 +10,14 @@ source:
   sha256: 5aa8d6cbc54d26f77e3d0511690cfafa57514a4145f75e8cabce782126509c91
 
 build:
-  number: 7
+  number: 8
   # Need to skip win because curl needs vc=9 and hdf5 needs vc>=14
   skip: true  # [win]
 
 requirements:
   build:
     - make
-    - cmake
+    - cmake <4
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
