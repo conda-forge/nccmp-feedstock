@@ -1,5 +1,5 @@
 {% set name = "nccmp" %}
-{% set version = "1.9.1.0" %}
+{% set version = "1.10.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://gitlab.com/remikz/{{ name }}/-/archive/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5aa8d6cbc54d26f77e3d0511690cfafa57514a4145f75e8cabce782126509c91
+  sha256: 4b665a5d1b77523e5eb353cc4c607794920faa5a1f31e6293f0dbcbe15d89a15
 
 build:
-  number: 8
+  number: 0
   # Need to skip win because curl needs vc=9 and hdf5 needs vc>=14
   skip: true  # [win]
 
