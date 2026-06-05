@@ -10,7 +10,7 @@ source:
   sha256: fbac27f69fa9582ecd43e54f24b8837670bcfcf9c15d0aa32c8d2356222a4d25
 
 build:
-  number: 0
+  number: 1
   # Need to skip win because curl needs vc=9 and hdf5 needs vc>=14
   skip: true  # [win]
 
